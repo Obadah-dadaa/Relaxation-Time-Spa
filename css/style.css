@@ -106,6 +106,16 @@ p {
  height: 110px;
  width: 110px;
 }
+
+@media (max-width: 993px) {
+  #logo{
+  /* position:fixed; */
+  margin-left: -180px;
+  /* right: auto; */
+}
+}
+
+
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
@@ -4067,7 +4077,7 @@ input[type="button"].btn-block {
 
 }
 /* sizess */
-@media (min-width: 792px) {
+@media (max-width: 792px) {
   .navbar-brand {
     flex-direction: column; /* توجيه عناصر النافبار عموديًا */
     align-items: flex-start; /* تحديد الطريقة التي تُريد بها توجيه العناصر عموديًا */
@@ -9665,7 +9675,7 @@ h6,
 /* تعريف حركة الزر */
 @keyframes moveUpDown {
   0% { top: 0; } /* بداية الحركة من الأعلى */
-  50% { top: calc(100vh - 700px); } /* النهاية في الأسفل */
+  50% { top: calc(100vh - 707px); } /* النهاية في الأسفل */
   100% { top: 0; } /* العودة إلى البداية */
 }
 
@@ -9673,17 +9683,9 @@ h6,
 #book-now{
   position: relative;
   transform: translateX(-50%); /* يُوسِّط الزر أفقيًا */
-  animation: moveUpDown 2s ease-in-out infinite; /* الحركة تستمر لمدة 5 ثواني بتأثير الانتقال ease-in-out وتكرر بشكل لانهائي */
+  animation: moveUpDown 4s ease-in-out infinite; /* الحركة تستمر لمدة 5 ثواني بتأثير الانتقال ease-in-out وتكرر بشكل لانهائي */
 }
 
-@supports (-ms-ime-align: auto) {
-  /* أي تعديلات إضافية لتوافقية متصفح Edge يمكن وضعها هنا */
-  @keyframes moveUpDown {
-    0% { top: 0; } /* بداية الحركة من الأعلى */
-    50% { top: calc(100vh - 770px); } /* النهاية في الأسفل */
-    100% { top: 0; } /* العودة إلى البداية */
-  }
-}
 
 /* إضافة بادئة -moz- للدعم في متصفح Firefox */
 @-moz-keyframes moveUpDown {
