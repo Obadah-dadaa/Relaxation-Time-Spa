@@ -627,6 +627,7 @@ pre code {
   margin-left: auto;
 }
 
+
 @media (min-width: 576px) {
   .container, .container-sm {
     max-width: 540px;
@@ -4065,7 +4066,14 @@ input[type="button"].btn-block {
   justify-content: space-between;
 
 }
-
+/* sizess */
+@media (min-width: 792px) {
+  .navbar-brand {
+    flex-direction: column; /* توجيه عناصر النافبار عموديًا */
+    align-items: flex-start; /* تحديد الطريقة التي تُريد بها توجيه العناصر عموديًا */
+    margin-right: 100px;
+  }
+}
 .navbar-brand {
   display: inline-block;
   padding-top: 0.3125rem;
@@ -9657,7 +9665,7 @@ h6,
 /* تعريف حركة الزر */
 @keyframes moveUpDown {
   0% { top: 0; } /* بداية الحركة من الأعلى */
-  50% { top: calc(100vh - 680px); } /* النهاية في الأسفل */
+  50% { top: calc(100vh - 700px); } /* النهاية في الأسفل */
   100% { top: 0; } /* العودة إلى البداية */
 }
 
@@ -9665,14 +9673,16 @@ h6,
 #book-now{
   position: relative;
   transform: translateX(-50%); /* يُوسِّط الزر أفقيًا */
-  animation: moveUpDown 4s ease-in-out infinite; /* الحركة تستمر لمدة 5 ثواني بتأثير الانتقال ease-in-out وتكرر بشكل لانهائي */
+  animation: moveUpDown 2s ease-in-out infinite; /* الحركة تستمر لمدة 5 ثواني بتأثير الانتقال ease-in-out وتكرر بشكل لانهائي */
 }
 
-/* إضافة بادئة -webkit- للدعم في متصفحات WebKit مثل Safari و Chrome */
-@-webkit-keyframes moveUpDown {
-  0% { top: 0; } /* بداية الحركة من الأعلى */
-  50% { top: calc(100vh - 680px); } /* النهاية في الأسفل */
-  100% { top: 0; } /* العودة إلى البداية */
+@supports (-ms-ime-align: auto) {
+  /* أي تعديلات إضافية لتوافقية متصفح Edge يمكن وضعها هنا */
+  @keyframes moveUpDown {
+    0% { top: 0; } /* بداية الحركة من الأعلى */
+    50% { top: calc(100vh - 770px); } /* النهاية في الأسفل */
+    100% { top: 0; } /* العودة إلى البداية */
+  }
 }
 
 /* إضافة بادئة -moz- للدعم في متصفح Firefox */
