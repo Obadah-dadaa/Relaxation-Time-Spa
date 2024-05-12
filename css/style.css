@@ -102,7 +102,10 @@ p {
   margin-bottom: 1rem;
 }
 
-
+#logo{
+ height: 110px;
+ width: 110px;
+}
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
