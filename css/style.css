@@ -110,7 +110,7 @@ p {
 @media (max-width: 993px) {
   #logo{
   /* position:fixed; */
-  margin-left: -180px;
+  margin-left: -172px;
   /* right: auto; */
 }
 }
@@ -3089,7 +3089,7 @@ input[type="button"].btn-block {
   margin: 0.125rem 0 0;
   font-size: 1rem;
   color: #757575;
-  text-align: left;
+  text-align: right;
   list-style: none;
   background-color: #fff;
   background-clip: padding-box;
@@ -4130,6 +4130,7 @@ input[type="button"].btn-block {
   flex-basis: 100%;
   flex-grow: 1;
   align-items: center;
+  text-align: right;
 }
 
 .navbar-toggler {
