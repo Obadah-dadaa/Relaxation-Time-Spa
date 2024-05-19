@@ -77,8 +77,8 @@
                     <a href="index.html" class="nav-item nav-link">Home</a>
                     <a href="about.html" class="nav-item nav-link">About Us</a>
                     <a href="service.html" class="nav-item nav-link">Our Service</a>
-                    <a href="price.html" class="nav-item nav-link">Pricing</a>
-                    <a href="contact.html" class="nav-item nav-link active">Contact</a>
+                    <!-- <a href="price.html" class="nav-item nav-link">Pricing</a> -->
+                    <a href="contact.html" class="nav-item nav-link active">Contact Us</a>
                 </div>
                 <a href="" id="book-now" class="btn btn-primary d-none d-lg-block" onclick="openWhatsApp()">Book Now</a>
             </div>
@@ -96,11 +96,11 @@
     <!-- Header Start -->
     <div class="jumbotron jumbotron-fluid bg-jumbotron" style="margin-bottom: 90px;">
         <div class="container text-center py-5">
-            <h3 class="text-white display-3 mb-4">Contact</h3>
+            <h3 class="text-white display-3 mb-4">Contact Us</h3>
             <div class="d-inline-flex align-items-center text-white">
                 <p class="m-0"><a class="text-white" href="/index.html">Home</a></p>
                 <i class="far fa-circle px-3"></i>
-                <p class="m-0">Contact</p>
+                <p class="m-0">Contact Us</p>
             </div>
         </div>
     </div>
@@ -113,43 +113,26 @@
             <div class="row">
                 <div class="col-lg-6" style="min-height: 500px;">
                     <div class="position-relative h-100">
-                        <iframe class="position-absolute w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        <iframe class="position-absolute w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230817.59023147885!2d55.381463673564305!3d25.320163436107272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5f5fede7964b%3A0x2a830aa19c1f6d89!2sSharjah!5e0!3m2!1sen!2sae!4v1716120753519!5m2!1sen!2sae" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                     </div>
                 </div>
                 <div class="col-lg-6 pt-5 pb-lg-5">
                     <div class="contact-form bg-light p-4 p-lg-5 my-lg-5">
-                        <h6 class="d-inline-block text-white text-uppercase bg-primary py-1 px-2">Contact</h6>
-                        <h1 class="mb-4">Contact For Any Query</h1>
+                        <h1 class="mb-4">Location</h1>
                         <div id="success"></div>
-                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                            <div class="form-row">
-                                <div class="col-sm-6 control-group">
-                                    <input type="text" class="form-control border-0 p-4" id="name" placeholder="Your Name"
-                                        required="required" data-validation-required-message="Please enter your name" />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="col-sm-6 control-group">
-                                    <input type="email" class="form-control border-0 p-4" id="email" placeholder="Your Email"
-                                        required="required" data-validation-required-message="Please enter your email" />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="control-group">
-                                <input type="text" class="form-control border-0 p-4" id="subject" placeholder="Subject"
-                                    required="required" data-validation-required-message="Please enter a subject" />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="control-group">
-                                <textarea class="form-control border-0 py-3 px-4" rows="3" id="message" placeholder="Message"
-                                    required="required"
-                                    data-validation-required-message="Please enter your message"></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
+                         
+                        <p><i class="fa fa-map-marker-alt mr-2"></i>Al Barsha, Dubai, UAE</p>
+
+                        <h1 class="mb-4">Contact no & Email</h1>
+                        <p><i class="fa fa-phone-alt mr-2"></i>Mobile  : +971-58 58 76977</p>
+                        <p><i class="fab fa-whatsapp mr-2"></i>WhatsApp   : +9710568640530</p>
+                        <p><i class="fa fa-envelope mr-2"></i>Email : info@example.com</p>
+                        
                             <div>
-                                <button class="btn btn-primary py-3 px-4" type="submit" id="sendMessageButton">Send
-                                    Message</button>
+                                <button class="btn btn-primary py-3 px-4" type="submit" id="sendMessageButton" onclick="openWhatsApp()">
+                                    Book Now</button>
                             </div>
-                        </form>
+                        
                     </div>
                 </div>
             </div>
@@ -185,7 +168,7 @@
                             <a class="text-white-50 mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>Home</a>
                             <a class="text-white-50 mb-2" href="/about.html"><i class="fa fa-angle-right mr-2"></i>About Us</a>
                             <a class="text-white-50 mb-2" href="/service.html"><i class="fa fa-angle-right mr-2"></i>Our Services</a>
-                            <a class="text-white-50 mb-2" href="/price.html"><i class="fa fa-angle-right mr-2"></i>Pricing Plan</a>
+                            <!-- <a class="text-white-50 mb-2" href="/price.html"><i class="fa fa-angle-right mr-2"></i>Pricing Plan</a> -->
                             <a class="text-white-50" href="/contact.html"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
                         </div>
                     </div>

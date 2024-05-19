@@ -103,8 +103,8 @@ p {
 }
 
 #logo{
- height: 110px;
- width: 110px;
+ height: 150px;
+ width: 100px;
 }
 
 @media (max-width: 993px) {
@@ -8748,7 +8748,7 @@ button.bg-dark:focus {
   }
   .mt-lg-5,
   .my-lg-5 {
-    margin-top: 3rem !important;
+    margin-top: 1rem !important;
   }
   .mr-lg-5,
   .mx-lg-5 {
@@ -8756,7 +8756,7 @@ button.bg-dark:focus {
   }
   .mb-lg-5,
   .my-lg-5 {
-    margin-bottom: 3rem !important;
+    margin-bottom: 1rem !important;
   }
   .ml-lg-5,
   .mx-lg-5 {
@@ -9827,7 +9827,9 @@ h6,
   .hours-text,
   .pricing-text,
   .contact-form {
-    margin-left: -120px;
+    /* margin-left: -120px; */
+    height: 100%;
+
   }
 }
 
