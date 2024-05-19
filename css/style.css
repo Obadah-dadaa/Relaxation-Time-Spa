@@ -110,20 +110,74 @@ p {
 @media (max-width: 992px) {
   #logo{
   /* position:fixed; */
-  margin-right: 85px;
+  margin-right: 450px;
   /* right: auto; */
 }
 }
-
-
-
-@media (min-width: 415px) {
+@media (max-width: 741px) {
   #logo{
   /* position:fixed; */
-  margin-left: -100px;
+  margin-right: 425px;
   /* right: auto; */
 }
 }
+@media (max-width: 668px) {
+  #logo{
+  /* position:fixed; */
+  margin-right: 361px;
+  /* right: auto; */
+}
+}
+@media (max-width: 431px) {
+  #logo{
+  /* position:fixed; */
+  margin-right: 125px;
+  /* right: auto; */
+}
+}
+@media (max-width: 415px) {
+  #logo{
+  /* position:fixed; */
+  margin-right: 109px;
+  /* right: auto; */
+}
+}
+@media (max-width: 413px) {
+  #logo{
+  /* position:fixed; */
+  margin-right: 107px;
+  /* right: auto; */
+}
+}
+@media (max-width: 391px) {
+  #logo{
+  /* position:fixed; */
+  margin-right: 84px;
+  /* right: auto; */
+}
+}
+
+
+@media (max-width: 376px) {
+  #logo{
+  /* position:fixed; */
+  margin-right: 70px;
+  /* right: auto; */
+}
+}
+
+
+@media (max-width: 361px) {
+  #logo{
+  /* position:fixed; */
+  margin-right: 55px;
+  /* right: auto; */
+}
+}
+
+
+
+
 
 
 abbr[title],
