@@ -110,7 +110,7 @@ p {
 @media (max-width: 992px) {
   #logo{
   /* position:fixed; */
-  margin-left: -275px;
+  margin-right: -275px;
   /* right: auto; */
 }
 }
