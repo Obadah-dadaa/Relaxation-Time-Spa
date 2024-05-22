@@ -110,7 +110,7 @@ p {
 @media (max-width: 992px) {
   #logo{
   /* position:fixed; */
-  margin-right: 450px;
+  margin-right: 438px;
   /* right: auto; */
 }
 }
@@ -6027,6 +6027,11 @@ a.close.disabled {
   .card:hover{
     transform:scale(1.05)
   }
+
+
+
+
+
 .read{
     color: #F9A392;
     background-color: #ffe1e1;
@@ -6039,6 +6044,7 @@ a.close.disabled {
     padding-left: 5px;
     padding-right: 5px;
 }
+
 .card:hover .read{
       transform:scale(1.1)/* تحريك الكلمة لليمين بمقدار 50 بكسل عند تحويل المؤشر عليها */
 
