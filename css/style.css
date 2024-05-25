@@ -2460,6 +2460,7 @@ fieldset:disabled a.btn {
   pointer-events: none;
 }
 
+
 .btn-primary {
   color: white;
   background-color: #F9A392;
@@ -7830,6 +7831,12 @@ button.bg-dark:focus {
 .p-4 {
   padding: 1.5rem !important;
 }
+
+@media (max-width: 576px) {
+    
+  }
+
+
 
 .pt-4,
 .py-4 {
